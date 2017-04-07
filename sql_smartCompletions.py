@@ -6,7 +6,7 @@ import re
 import sublime
 import sublime_plugin
 
-from asopenag_plugins.slq_smart_completions.asopenag_columns_file import *   #import columns file
+from asopenag_plugins.sql_smart_completions.asopenag_columns_file import *   #import columns file
 
 columns_in_lowercase = sublime.load_settings('sql_smartCompletions.sublime-settings').get('columns_in_lowercase')  #read property
 
